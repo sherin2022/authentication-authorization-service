@@ -293,3 +293,352 @@
 2022-04-26 12:02:49.058  INFO 21700 --- [hystrix-HystrixCircuitBreakerFactory-1] c.e.d.configuration.FeignClientRetryer   : Feign retry attempt
 2022-04-26 12:06:58.404  INFO 21700 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
 2022-04-26 12:11:58.413  INFO 21700 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-26 12:16:58.427  INFO 21700 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-26 12:21:02.277  INFO 21700 --- [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application AUTHENTICATION-AUTHORIZATION-SERVICE with eureka with status DOWN
+2022-04-26 12:21:02.278  INFO 21700 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1650955862278, current=DOWN, previous=UP]
+2022-04-26 12:21:02.278  INFO 21700 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-AUTHORIZATION-SERVICE/MAVBNG1121239.mavericsystems.lan:authentication-authorization-service:3000: registering service...
+2022-04-26 12:21:02.292  INFO 21700 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-AUTHORIZATION-SERVICE/MAVBNG1121239.mavericsystems.lan:authentication-authorization-service:3000 - registration status: 204
+2022-04-26 12:21:02.807  INFO 21700 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-26 12:21:02.815  INFO 21700 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-26 12:21:02.851  INFO 21700 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-26 12:21:02.853  INFO 21700 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-04-26 12:21:05.869  INFO 21700 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-04-26 12:21:05.882  INFO 21700 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-AUTHORIZATION-SERVICE/MAVBNG1121239.mavericsystems.lan:authentication-authorization-service:3000 - deregister  status: 200
+2022-04-26 12:21:05.892  INFO 21700 --- [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-04-26 12:21:22.028  INFO 18324 --- [restartedMain] nticationAuthorizationServiceApplication : Starting AuthenticationAuthorizationServiceApplication using Java 1.8.0_322 on MAVBNG1121239 with PID 18324 (C:\Users\savitago\Downloads\authentication-authorization-service\target\classes started by savitago in C:\Users\savitago\Downloads\authentication-authorization-service)
+2022-04-26 12:21:22.031  INFO 18324 --- [restartedMain] nticationAuthorizationServiceApplication : No active profile set, falling back to 1 default profile: "default"
+2022-04-26 12:21:22.188  INFO 18324 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-04-26 12:21:22.188  INFO 18324 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-04-26 12:21:23.927  INFO 18324 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-26 12:21:24.301  INFO 18324 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 360 ms. Found 1 JPA repository interfaces.
+2022-04-26 12:21:24.890  INFO 18324 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c85e963c-353e-3cb5-a6ee-9ad9b313d98e
+2022-04-26 12:21:26.859  INFO 18324 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3000 (http)
+2022-04-26 12:21:26.883  INFO 18324 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-26 12:21:26.884  INFO 18324 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-26 12:21:27.226  INFO 18324 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-26 12:21:27.226  INFO 18324 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5035 ms
+2022-04-26 12:21:27.679  INFO 18324 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-26 12:21:27.830  INFO 18324 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-04-26 12:21:28.217  INFO 18324 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-04-26 12:21:28.504  INFO 18324 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-04-26 12:21:29.261  INFO 18324 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-04-26 12:21:29.324  INFO 18324 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-04-26 12:21:31.346  INFO 18324 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-26 12:21:31.369  INFO 18324 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-26 12:21:32.510  WARN 18324 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-26 12:21:32.867  INFO 18324 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-26 12:21:33.005  INFO 18324 --- [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'user-service' URL not provided. Will try picking an instance via load-balancing.
+2022-04-26 12:21:33.763  INFO 18324 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
+2022-04-26 12:21:33.813  WARN 18324 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-04-26 12:21:33.814  INFO 18324 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-26 12:21:33.831  WARN 18324 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-04-26 12:21:33.832  INFO 18324 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-26 12:21:35.994  INFO 18324 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-04-26 12:21:37.077  WARN 18324 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-04-26 12:21:37.145  INFO 18324 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-04-26 12:21:37.335  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-04-26 12:21:37.355  INFO 18324 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-26 12:21:37.452  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-04-26 12:21:37.453  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-04-26 12:21:37.454  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-04-26 12:21:37.455  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-04-26 12:21:37.457  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-04-26 12:21:37.457  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-04-26 12:21:37.458  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-04-26 12:21:38.322  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-04-26 12:21:38.328  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-04-26 12:21:38.334  INFO 18324 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-04-26 12:21:38.345  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1650955898342 with initial instances count: 4
+2022-04-26 12:21:38.355  INFO 18324 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application AUTHENTICATION-AUTHORIZATION-SERVICE with eureka with status UP
+2022-04-26 12:21:38.356  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1650955898356, current=UP, previous=STARTING]
+2022-04-26 12:21:38.362  INFO 18324 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-AUTHORIZATION-SERVICE/MAVBNG1121239.mavericsystems.lan:authentication-authorization-service:3000: registering service...
+2022-04-26 12:21:38.423  INFO 18324 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3000 (http) with context path ''
+2022-04-26 12:21:38.426  INFO 18324 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 3000
+2022-04-26 12:21:38.486  INFO 18324 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-AUTHORIZATION-SERVICE/MAVBNG1121239.mavericsystems.lan:authentication-authorization-service:3000 - registration status: 204
+2022-04-26 12:21:39.378  INFO 18324 --- [restartedMain] nticationAuthorizationServiceApplication : Started AuthenticationAuthorizationServiceApplication in 19.428 seconds (JVM running for 20.79)
+2022-04-26 12:22:49.007  INFO 18324 --- [Thread-6] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application AUTHENTICATION-AUTHORIZATION-SERVICE with eureka with status DOWN
+2022-04-26 12:22:49.008  INFO 18324 --- [Thread-6] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1650955969008, current=DOWN, previous=UP]
+2022-04-26 12:22:49.009  INFO 18324 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-AUTHORIZATION-SERVICE/MAVBNG1121239.mavericsystems.lan:authentication-authorization-service:3000: registering service...
+2022-04-26 12:22:49.037  INFO 18324 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-AUTHORIZATION-SERVICE/MAVBNG1121239.mavericsystems.lan:authentication-authorization-service:3000 - registration status: 204
+2022-04-26 12:22:49.564  INFO 18324 --- [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-26 12:22:49.573  INFO 18324 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-04-26 12:22:49.604  INFO 18324 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-04-26 12:22:49.606  INFO 18324 --- [Thread-6] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-04-26 12:22:52.623  INFO 18324 --- [Thread-6] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-04-26 12:22:52.639  INFO 18324 --- [Thread-6] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-AUTHORIZATION-SERVICE/MAVBNG1121239.mavericsystems.lan:authentication-authorization-service:3000 - deregister  status: 200
+2022-04-26 12:22:52.649  INFO 18324 --- [Thread-6] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-04-26 12:22:53.892  INFO 18324 --- [restartedMain] nticationAuthorizationServiceApplication : Starting AuthenticationAuthorizationServiceApplication using Java 1.8.0_322 on MAVBNG1121239 with PID 18324 (C:\Users\savitago\Downloads\authentication-authorization-service\target\classes started by savitago in C:\Users\savitago\Downloads\authentication-authorization-service)
+2022-04-26 12:22:53.893  INFO 18324 --- [restartedMain] nticationAuthorizationServiceApplication : No active profile set, falling back to 1 default profile: "default"
+2022-04-26 12:22:54.532  INFO 18324 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-26 12:22:54.564  INFO 18324 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interfaces.
+2022-04-26 12:22:54.724  INFO 18324 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c85e963c-353e-3cb5-a6ee-9ad9b313d98e
+2022-04-26 12:22:55.028  INFO 18324 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3000 (http)
+2022-04-26 12:22:55.029  INFO 18324 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-26 12:22:55.029  INFO 18324 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-26 12:22:55.079  INFO 18324 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-26 12:22:55.079  INFO 18324 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1179 ms
+2022-04-26 12:22:55.147  INFO 18324 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-26 12:22:55.159  INFO 18324 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-04-26 12:22:55.213  INFO 18324 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-04-26 12:22:55.214  INFO 18324 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-04-26 12:22:55.300  INFO 18324 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-26 12:22:55.300  INFO 18324 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-26 12:22:55.504  WARN 18324 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-26 12:22:55.701  INFO 18324 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-26 12:22:55.753  INFO 18324 --- [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'user-service' URL not provided. Will try picking an instance via load-balancing.
+2022-04-26 12:22:55.838  INFO 18324 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
+2022-04-26 12:22:55.847  WARN 18324 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-04-26 12:22:55.847  INFO 18324 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-26 12:22:56.937  INFO 18324 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-04-26 12:22:57.980  WARN 18324 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-04-26 12:22:58.003  INFO 18324 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-04-26 12:22:58.009  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-04-26 12:22:58.011  INFO 18324 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-26 12:22:58.029  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-04-26 12:22:58.030  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-04-26 12:22:58.030  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-04-26 12:22:58.030  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-04-26 12:22:58.030  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-04-26 12:22:58.031  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-04-26 12:22:58.031  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-04-26 12:22:58.088  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-04-26 12:22:58.089  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-04-26 12:22:58.091  INFO 18324 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-04-26 12:22:58.095  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1650955978095 with initial instances count: 5
+2022-04-26 12:22:58.097  INFO 18324 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application AUTHENTICATION-AUTHORIZATION-SERVICE with eureka with status UP
+2022-04-26 12:22:58.098  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1650955978098, current=UP, previous=STARTING]
+2022-04-26 12:22:58.127  INFO 18324 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3000 (http) with context path ''
+2022-04-26 12:22:58.130  INFO 18324 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-AUTHORIZATION-SERVICE/MAVBNG1121239.mavericsystems.lan:authentication-authorization-service:3000: registering service...
+2022-04-26 12:22:58.134  INFO 18324 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 3000
+2022-04-26 12:22:58.159  INFO 18324 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-AUTHORIZATION-SERVICE/MAVBNG1121239.mavericsystems.lan:authentication-authorization-service:3000 - registration status: 204
+2022-04-26 12:22:58.869  INFO 18324 --- [restartedMain] nticationAuthorizationServiceApplication : Started AuthenticationAuthorizationServiceApplication in 5.84 seconds (JVM running for 100.281)
+2022-04-26 12:22:58.876  INFO 18324 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-04-26 12:22:59.125  INFO 18324 --- [Thread-10] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application AUTHENTICATION-AUTHORIZATION-SERVICE with eureka with status DOWN
+2022-04-26 12:22:59.126  INFO 18324 --- [Thread-10] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1650955979126, current=DOWN, previous=UP]
+2022-04-26 12:22:59.127  INFO 18324 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-AUTHORIZATION-SERVICE/MAVBNG1121239.mavericsystems.lan:authentication-authorization-service:3000: registering service...
+2022-04-26 12:22:59.133  INFO 18324 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-AUTHORIZATION-SERVICE/MAVBNG1121239.mavericsystems.lan:authentication-authorization-service:3000 - registration status: 204
+2022-04-26 12:22:59.685  INFO 18324 --- [Thread-10] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-26 12:22:59.688  INFO 18324 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2022-04-26 12:22:59.705  INFO 18324 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2022-04-26 12:22:59.706  INFO 18324 --- [Thread-10] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-04-26 12:23:02.718  INFO 18324 --- [Thread-10] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-04-26 12:23:02.742  INFO 18324 --- [Thread-10] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-AUTHORIZATION-SERVICE/MAVBNG1121239.mavericsystems.lan:authentication-authorization-service:3000 - deregister  status: 200
+2022-04-26 12:23:02.748  INFO 18324 --- [Thread-10] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-04-26 12:23:03.886  INFO 18324 --- [restartedMain] nticationAuthorizationServiceApplication : Starting AuthenticationAuthorizationServiceApplication using Java 1.8.0_322 on MAVBNG1121239 with PID 18324 (C:\Users\savitago\Downloads\authentication-authorization-service\target\classes started by savitago in C:\Users\savitago\Downloads\authentication-authorization-service)
+2022-04-26 12:23:03.892  INFO 18324 --- [restartedMain] nticationAuthorizationServiceApplication : No active profile set, falling back to 1 default profile: "default"
+2022-04-26 12:23:04.607  INFO 18324 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-26 12:23:04.650  INFO 18324 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interfaces.
+2022-04-26 12:23:04.849  INFO 18324 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c85e963c-353e-3cb5-a6ee-9ad9b313d98e
+2022-04-26 12:23:04.985  INFO 18324 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3000 (http)
+2022-04-26 12:23:04.989  INFO 18324 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-26 12:23:04.989  INFO 18324 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-26 12:23:05.049  INFO 18324 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-26 12:23:05.050  INFO 18324 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1152 ms
+2022-04-26 12:23:05.123  INFO 18324 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-26 12:23:05.134  INFO 18324 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2022-04-26 12:23:05.186  INFO 18324 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2022-04-26 12:23:05.187  INFO 18324 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-04-26 12:23:05.250  INFO 18324 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-26 12:23:05.251  INFO 18324 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-26 12:23:05.387  WARN 18324 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-26 12:23:05.543  INFO 18324 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-26 12:23:05.578  INFO 18324 --- [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'user-service' URL not provided. Will try picking an instance via load-balancing.
+2022-04-26 12:23:05.708  INFO 18324 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
+2022-04-26 12:23:05.716  WARN 18324 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-04-26 12:23:05.717  INFO 18324 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-26 12:23:06.657  INFO 18324 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-04-26 12:23:07.361  WARN 18324 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-04-26 12:23:07.376  INFO 18324 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-04-26 12:23:07.380  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-04-26 12:23:07.381  INFO 18324 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-26 12:23:07.382  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-04-26 12:23:07.383  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-04-26 12:23:07.383  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-04-26 12:23:07.383  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-04-26 12:23:07.383  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-04-26 12:23:07.383  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-04-26 12:23:07.383  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-04-26 12:23:07.426  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-04-26 12:23:07.427  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-04-26 12:23:07.429  INFO 18324 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-04-26 12:23:07.430  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1650955987430 with initial instances count: 5
+2022-04-26 12:23:07.431  INFO 18324 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application AUTHENTICATION-AUTHORIZATION-SERVICE with eureka with status UP
+2022-04-26 12:23:07.432  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1650955987432, current=UP, previous=STARTING]
+2022-04-26 12:23:07.438  INFO 18324 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-AUTHORIZATION-SERVICE/MAVBNG1121239.mavericsystems.lan:authentication-authorization-service:3000: registering service...
+2022-04-26 12:23:07.441  INFO 18324 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3000 (http) with context path ''
+2022-04-26 12:23:07.441  INFO 18324 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 3000
+2022-04-26 12:23:07.469  INFO 18324 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-AUTHORIZATION-SERVICE/MAVBNG1121239.mavericsystems.lan:authentication-authorization-service:3000 - registration status: 204
+2022-04-26 12:23:08.263  INFO 18324 --- [restartedMain] nticationAuthorizationServiceApplication : Started AuthenticationAuthorizationServiceApplication in 5.246 seconds (JVM running for 109.675)
+2022-04-26 12:23:08.267  INFO 18324 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-04-26 12:27:18.044  INFO 18324 --- [Thread-16] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application AUTHENTICATION-AUTHORIZATION-SERVICE with eureka with status DOWN
+2022-04-26 12:27:18.044  INFO 18324 --- [Thread-16] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1650956238044, current=DOWN, previous=UP]
+2022-04-26 12:27:18.045  INFO 18324 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-AUTHORIZATION-SERVICE/MAVBNG1121239.mavericsystems.lan:authentication-authorization-service:3000: registering service...
+2022-04-26 12:27:18.061  INFO 18324 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-AUTHORIZATION-SERVICE/MAVBNG1121239.mavericsystems.lan:authentication-authorization-service:3000 - registration status: 204
+2022-04-26 12:27:18.552  INFO 18324 --- [Thread-16] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-26 12:27:18.554  INFO 18324 --- [Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2022-04-26 12:27:18.594  INFO 18324 --- [Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2022-04-26 12:27:18.596  INFO 18324 --- [Thread-16] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-04-26 12:27:21.607  INFO 18324 --- [Thread-16] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-04-26 12:27:21.626  INFO 18324 --- [Thread-16] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-AUTHORIZATION-SERVICE/MAVBNG1121239.mavericsystems.lan:authentication-authorization-service:3000 - deregister  status: 200
+2022-04-26 12:27:21.632  INFO 18324 --- [Thread-16] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-04-26 12:27:22.906  INFO 18324 --- [restartedMain] nticationAuthorizationServiceApplication : Starting AuthenticationAuthorizationServiceApplication using Java 1.8.0_322 on MAVBNG1121239 with PID 18324 (C:\Users\savitago\Downloads\authentication-authorization-service\target\classes started by savitago in C:\Users\savitago\Downloads\authentication-authorization-service)
+2022-04-26 12:27:22.907  INFO 18324 --- [restartedMain] nticationAuthorizationServiceApplication : No active profile set, falling back to 1 default profile: "default"
+2022-04-26 12:27:23.394  INFO 18324 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-26 12:27:23.430  INFO 18324 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interfaces.
+2022-04-26 12:27:23.552  INFO 18324 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c85e963c-353e-3cb5-a6ee-9ad9b313d98e
+2022-04-26 12:27:23.776  INFO 18324 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3000 (http)
+2022-04-26 12:27:23.777  INFO 18324 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-26 12:27:23.778  INFO 18324 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-26 12:27:23.805  INFO 18324 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-26 12:27:23.805  INFO 18324 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 895 ms
+2022-04-26 12:27:23.846  INFO 18324 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-26 12:27:23.854  INFO 18324 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2022-04-26 12:27:23.901  INFO 18324 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2022-04-26 12:27:23.901  INFO 18324 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-04-26 12:27:23.952  INFO 18324 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-26 12:27:23.952  INFO 18324 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-26 12:27:24.077  WARN 18324 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-26 12:27:24.145  INFO 18324 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-26 12:27:24.167  INFO 18324 --- [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'user-service' URL not provided. Will try picking an instance via load-balancing.
+2022-04-26 12:27:24.217  INFO 18324 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
+2022-04-26 12:27:24.223  WARN 18324 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-04-26 12:27:24.224  INFO 18324 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-26 12:27:25.093  INFO 18324 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-04-26 12:27:25.927  WARN 18324 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-04-26 12:27:25.940  INFO 18324 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-04-26 12:27:25.944  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-04-26 12:27:25.944  INFO 18324 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-26 12:27:25.946  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-04-26 12:27:25.947  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-04-26 12:27:25.947  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-04-26 12:27:25.947  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-04-26 12:27:25.947  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-04-26 12:27:25.947  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-04-26 12:27:25.947  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-04-26 12:27:25.989  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-04-26 12:27:25.990  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-04-26 12:27:25.991  INFO 18324 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-04-26 12:27:25.992  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1650956245992 with initial instances count: 5
+2022-04-26 12:27:25.993  INFO 18324 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application AUTHENTICATION-AUTHORIZATION-SERVICE with eureka with status UP
+2022-04-26 12:27:25.993  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1650956245993, current=UP, previous=STARTING]
+2022-04-26 12:27:25.994  INFO 18324 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-AUTHORIZATION-SERVICE/MAVBNG1121239.mavericsystems.lan:authentication-authorization-service:3000: registering service...
+2022-04-26 12:27:26.003  INFO 18324 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3000 (http) with context path ''
+2022-04-26 12:27:26.005  INFO 18324 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 3000
+2022-04-26 12:27:26.019  INFO 18324 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-AUTHORIZATION-SERVICE/MAVBNG1121239.mavericsystems.lan:authentication-authorization-service:3000 - registration status: 204
+2022-04-26 12:27:26.727  INFO 18324 --- [restartedMain] nticationAuthorizationServiceApplication : Started AuthenticationAuthorizationServiceApplication in 4.638 seconds (JVM running for 368.14)
+2022-04-26 12:27:26.729  INFO 18324 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-04-26 12:27:27.472  INFO 18324 --- [Thread-22] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application AUTHENTICATION-AUTHORIZATION-SERVICE with eureka with status DOWN
+2022-04-26 12:27:27.472  INFO 18324 --- [Thread-22] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1650956247472, current=DOWN, previous=UP]
+2022-04-26 12:27:27.473  INFO 18324 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-AUTHORIZATION-SERVICE/MAVBNG1121239.mavericsystems.lan:authentication-authorization-service:3000: registering service...
+2022-04-26 12:27:27.483  INFO 18324 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-AUTHORIZATION-SERVICE/MAVBNG1121239.mavericsystems.lan:authentication-authorization-service:3000 - registration status: 204
+2022-04-26 12:27:28.165  INFO 18324 --- [Thread-22] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-26 12:27:28.167  INFO 18324 --- [Thread-22] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2022-04-26 12:27:28.186  INFO 18324 --- [Thread-22] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2022-04-26 12:27:28.186  INFO 18324 --- [Thread-22] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-04-26 12:27:31.201  INFO 18324 --- [Thread-22] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-04-26 12:27:31.224  INFO 18324 --- [Thread-22] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-AUTHORIZATION-SERVICE/MAVBNG1121239.mavericsystems.lan:authentication-authorization-service:3000 - deregister  status: 200
+2022-04-26 12:27:31.230  INFO 18324 --- [Thread-22] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-04-26 12:27:32.184  INFO 18324 --- [restartedMain] nticationAuthorizationServiceApplication : Starting AuthenticationAuthorizationServiceApplication using Java 1.8.0_322 on MAVBNG1121239 with PID 18324 (C:\Users\savitago\Downloads\authentication-authorization-service\target\classes started by savitago in C:\Users\savitago\Downloads\authentication-authorization-service)
+2022-04-26 12:27:32.184  INFO 18324 --- [restartedMain] nticationAuthorizationServiceApplication : No active profile set, falling back to 1 default profile: "default"
+2022-04-26 12:27:32.546  INFO 18324 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-26 12:27:32.570  INFO 18324 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interfaces.
+2022-04-26 12:27:32.664  INFO 18324 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c85e963c-353e-3cb5-a6ee-9ad9b313d98e
+2022-04-26 12:27:32.739  INFO 18324 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3000 (http)
+2022-04-26 12:27:32.740  INFO 18324 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-26 12:27:32.740  INFO 18324 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-26 12:27:32.779  INFO 18324 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-26 12:27:32.779  INFO 18324 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 592 ms
+2022-04-26 12:27:32.828  INFO 18324 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-26 12:27:32.835  INFO 18324 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2022-04-26 12:27:32.876  INFO 18324 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2022-04-26 12:27:32.877  INFO 18324 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-04-26 12:27:32.925  INFO 18324 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-26 12:27:32.925  INFO 18324 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-26 12:27:33.049  WARN 18324 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-26 12:27:33.143  INFO 18324 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-26 12:27:33.177  INFO 18324 --- [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'user-service' URL not provided. Will try picking an instance via load-balancing.
+2022-04-26 12:27:33.232  INFO 18324 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
+2022-04-26 12:27:33.238  WARN 18324 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-04-26 12:27:33.238  INFO 18324 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-26 12:27:34.370  INFO 18324 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-04-26 12:27:35.429  WARN 18324 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-04-26 12:27:35.461  INFO 18324 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-04-26 12:27:35.466  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-04-26 12:27:35.466  INFO 18324 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-26 12:27:35.468  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-04-26 12:27:35.468  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-04-26 12:27:35.468  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-04-26 12:27:35.468  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-04-26 12:27:35.468  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-04-26 12:27:35.469  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-04-26 12:27:35.469  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-04-26 12:27:35.515  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-04-26 12:27:35.516  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-04-26 12:27:35.517  INFO 18324 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-04-26 12:27:35.518  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1650956255518 with initial instances count: 5
+2022-04-26 12:27:35.519  INFO 18324 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application AUTHENTICATION-AUTHORIZATION-SERVICE with eureka with status UP
+2022-04-26 12:27:35.520  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1650956255520, current=UP, previous=STARTING]
+2022-04-26 12:27:35.524  INFO 18324 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-AUTHORIZATION-SERVICE/MAVBNG1121239.mavericsystems.lan:authentication-authorization-service:3000: registering service...
+2022-04-26 12:27:35.534  INFO 18324 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3000 (http) with context path ''
+2022-04-26 12:27:35.534  INFO 18324 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 3000
+2022-04-26 12:27:35.567  INFO 18324 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-AUTHORIZATION-SERVICE/MAVBNG1121239.mavericsystems.lan:authentication-authorization-service:3000 - registration status: 204
+2022-04-26 12:27:36.473  INFO 18324 --- [restartedMain] nticationAuthorizationServiceApplication : Started AuthenticationAuthorizationServiceApplication in 4.928 seconds (JVM running for 377.885)
+2022-04-26 12:27:36.477  INFO 18324 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-04-26 12:27:55.837  INFO 18324 --- [Thread-28] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application AUTHENTICATION-AUTHORIZATION-SERVICE with eureka with status DOWN
+2022-04-26 12:27:55.838  INFO 18324 --- [Thread-28] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1650956275838, current=DOWN, previous=UP]
+2022-04-26 12:27:55.838  INFO 18324 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-AUTHORIZATION-SERVICE/MAVBNG1121239.mavericsystems.lan:authentication-authorization-service:3000: registering service...
+2022-04-26 12:27:55.850  INFO 18324 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-AUTHORIZATION-SERVICE/MAVBNG1121239.mavericsystems.lan:authentication-authorization-service:3000 - registration status: 204
+2022-04-26 12:27:56.493  INFO 18324 --- [Thread-28] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-04-26 12:27:56.494  INFO 18324 --- [Thread-28] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2022-04-26 12:27:56.511  INFO 18324 --- [Thread-28] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2022-04-26 12:27:56.512  INFO 18324 --- [Thread-28] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2022-04-26 12:27:59.526  INFO 18324 --- [Thread-28] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2022-04-26 12:27:59.542  INFO 18324 --- [Thread-28] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-AUTHORIZATION-SERVICE/MAVBNG1121239.mavericsystems.lan:authentication-authorization-service:3000 - deregister  status: 200
+2022-04-26 12:27:59.546  INFO 18324 --- [Thread-28] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2022-04-26 12:28:00.418  INFO 18324 --- [restartedMain] nticationAuthorizationServiceApplication : Starting AuthenticationAuthorizationServiceApplication using Java 1.8.0_322 on MAVBNG1121239 with PID 18324 (C:\Users\savitago\Downloads\authentication-authorization-service\target\classes started by savitago in C:\Users\savitago\Downloads\authentication-authorization-service)
+2022-04-26 12:28:00.419  INFO 18324 --- [restartedMain] nticationAuthorizationServiceApplication : No active profile set, falling back to 1 default profile: "default"
+2022-04-26 12:28:00.783  INFO 18324 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-04-26 12:28:00.811  INFO 18324 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interfaces.
+2022-04-26 12:28:00.906  INFO 18324 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c85e963c-353e-3cb5-a6ee-9ad9b313d98e
+2022-04-26 12:28:01.119  INFO 18324 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3000 (http)
+2022-04-26 12:28:01.121  INFO 18324 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-26 12:28:01.121  INFO 18324 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-26 12:28:01.165  INFO 18324 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-26 12:28:01.165  INFO 18324 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 743 ms
+2022-04-26 12:28:01.213  INFO 18324 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-04-26 12:28:01.220  INFO 18324 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2022-04-26 12:28:01.259  INFO 18324 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2022-04-26 12:28:01.260  INFO 18324 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2022-04-26 12:28:01.298  INFO 18324 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-04-26 12:28:01.299  INFO 18324 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-26 12:28:01.376  WARN 18324 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-04-26 12:28:01.438  INFO 18324 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-04-26 12:28:01.456  INFO 18324 --- [restartedMain] o.s.c.openfeign.FeignClientFactoryBean   : For 'user-service' URL not provided. Will try picking an instance via load-balancing.
+2022-04-26 12:28:01.504  INFO 18324 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
+2022-04-26 12:28:01.508  WARN 18324 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2022-04-26 12:28:01.508  INFO 18324 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-26 12:28:02.203  INFO 18324 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2022-04-26 12:28:02.737  WARN 18324 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-04-26 12:28:02.746  INFO 18324 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2022-04-26 12:28:02.747  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2022-04-26 12:28:02.748  INFO 18324 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2022-04-26 12:28:02.750  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2022-04-26 12:28:02.750  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2022-04-26 12:28:02.750  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2022-04-26 12:28:02.750  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2022-04-26 12:28:02.750  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2022-04-26 12:28:02.751  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2022-04-26 12:28:02.751  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2022-04-26 12:28:02.789  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2022-04-26 12:28:02.790  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2022-04-26 12:28:02.790  INFO 18324 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-04-26 12:28:02.791  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1650956282791 with initial instances count: 4
+2022-04-26 12:28:02.794  INFO 18324 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application AUTHENTICATION-AUTHORIZATION-SERVICE with eureka with status UP
+2022-04-26 12:28:02.794  INFO 18324 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1650956282794, current=UP, previous=STARTING]
+2022-04-26 12:28:02.796  INFO 18324 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-AUTHORIZATION-SERVICE/MAVBNG1121239.mavericsystems.lan:authentication-authorization-service:3000: registering service...
+2022-04-26 12:28:02.807  INFO 18324 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3000 (http) with context path ''
+2022-04-26 12:28:02.808  INFO 18324 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 3000
+2022-04-26 12:28:02.819  INFO 18324 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AUTHENTICATION-AUTHORIZATION-SERVICE/MAVBNG1121239.mavericsystems.lan:authentication-authorization-service:3000 - registration status: 204
+2022-04-26 12:28:03.330  INFO 18324 --- [restartedMain] nticationAuthorizationServiceApplication : Started AuthenticationAuthorizationServiceApplication in 3.607 seconds (JVM running for 404.741)
+2022-04-26 12:28:03.331  INFO 18324 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-04-26 12:33:02.759  INFO 18324 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
