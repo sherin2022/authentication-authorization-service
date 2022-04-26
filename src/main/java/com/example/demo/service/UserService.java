@@ -1,8 +1,6 @@
 package com.example.demo.service;
-
 import com.example.demo.model.JWTRequest;
 import com.example.demo.repo.AuthorisationRepo;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -22,6 +20,12 @@ public class UserService implements UserDetailsService {
         JWTRequest jwtRequest = authorisationRepo.findByEmail(email);
 
         return new User(jwtRequest.getEmail(), jwtRequest.getPassword(), new ArrayList<>());
-
     }
+
+
+    public boolean emailIsPresent(String email){
+        return authorisationRepo.findByEmail(email) != null;
+    }
+
+
 }

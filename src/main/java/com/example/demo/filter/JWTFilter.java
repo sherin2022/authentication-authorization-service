@@ -1,4 +1,5 @@
 package com.example.demo.filter;
+
 import com.example.demo.service.UserService;
 import com.example.demo.utility.JWTUtility;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -43,8 +44,7 @@ public class JWTFilter extends OncePerRequestFilter {
 
             UserDetails userDetails = this.userService.loadUserByUsername(username);
 
-            if (jwtUtil.validateToken(jwt, userDetails)) {
-
+            if (Boolean.TRUE.equals(jwtUtil.validateToken(jwt, userDetails))) {
                 UsernamePasswordAuthenticationToken usernamePasswordAuthenticationToken = new UsernamePasswordAuthenticationToken(
                         userDetails, null, userDetails.getAuthorities());
                 usernamePasswordAuthenticationToken
